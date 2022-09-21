@@ -1,3 +1,6 @@
+* {     margin: 0;     padding: 0; }
+
+
 .body-index {width: 100vw;height:200vh;position: relative;}
 
 html{overflow-x: hidden;
@@ -16,7 +19,7 @@ html{overflow-x: hidden;
 
 
 }
-#formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84); border-left:150px,!important;
+#formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84); border-left:150px,!important; height: 63vh;
 
 
 
@@ -51,14 +54,18 @@ background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
 }
 
 .carrousel-item{object-fit: cover;
-    object-position: center; position: absolute; top: 0;} 
+    object-position: center; position: absolute; top: 0;}
+
+.carrousel-slide{width: 100%;height: 100vh;
+
+}
 
 
 #footer_index{ height: 10vh; position: absolute; top: 0,!important; width: 100vw;
 
 }
 
-#footer_contacto{ height: 10vh; position: absolute; top: 0,!important;min-width: 100vw;; border-right: 200px red,!important;
+#footer_contacto{height: 10vh; position: absolute; top: 0,!important;min-width: 100vw;position: fixed red,!important; width: 100%;
 
 }
 
@@ -82,7 +89,7 @@ background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
 
     }
     
-    #footer_contacto{ height: 30vh; position: absolute; top: 0,!important; min-width: 100vw; border-right: 200px;
+    #footer_contacto{height: 30vh; position: absolute; top: 0,!important; min-width: 100vw; border-right: 200px;
     
     }
 } 
