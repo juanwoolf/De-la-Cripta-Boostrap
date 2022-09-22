@@ -19,7 +19,12 @@ html{overflow-x: hidden;
 
 
 }
-#formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84);height: 63vh;
+#section_info_3{ font-family: "sausage";font-size:1.2rem
+
+}
+   
+
+#formulario_general{font-family: "sausage"; ; padding-top: 25%;background-color:rgb(25 135 84);height: 63vh;
 
 
 
@@ -105,4 +110,9 @@ background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
     #formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84);height: 71vh;
 
     }
+    #section_info_3{ font-family: "sausage";font-size:1rem
+
+    }
+       
+    
 } 
