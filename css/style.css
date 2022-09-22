@@ -19,16 +19,16 @@ html{overflow-x: hidden;
 
 
 }
-#formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84); border-left:150px,!important; height: 63vh;
+#formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84);height: 63vh;
 
 
 
 }
-#formulario_conocimiento{font-family: "sausage";font-size: medium;padding-left: 50%; position: absolute;
+/* #formulario_conocimiento{font-family: "sausage";font-size: medium;padding-left: 50%; position: absolute;
 
 
 
-}
+} */
 
 @font-face{ font-family: "shadow";
     src: url(../assets/fonts/Doctor\ Terror.otf)
@@ -49,12 +49,11 @@ html{overflow-x: hidden;
 }
 
 #aside_index{height: 72vh;
-background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;position: relative;
-
+background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
 }
 
-.carrousel-item{object-fit: cover;
-    object-position: center; position: absolute; top: 0;}
+/* .carrousel-item{object-fit: cover;
+    object-position: center; position: absolute; top: 0;} */
 
 .carrousel-slide{width: 100%;height: 100vh;
 
@@ -65,11 +64,20 @@ background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
 
 }
 
-#footer_contacto{height: 10vh; position: absolute; top: 0,!important;min-width: 100vw;position: fixed red,!important; width: 100%;
+#footer_contacto{height: 15vh;min-width: 100vw;position: fixed red,!important; width: 100%;
 
 }
 
-.body-contacto {width: 100vw;position: relative;height: 150vh,!important;}
+.body-contacto {width: 100vw;position: relative;height:150vh,!important;background-color: rgb(15, 18, 15);}
+
+#no{display: block; text-align: center;
+
+}
+
+#formulario_nombre{border-radius: 30px solid black,!important; margin: 30px solid black;
+
+}
+
 
                  /* --MEDIA QUERIES-- */
 @media only screen and (min-width: 768px) and (max-width:992px){
@@ -77,7 +85,7 @@ background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
 
     }
     
-    #footer_contacto{ height: 30vh; position: absolute; top: 0,!important; min-width: 100vw; border-right: 200px;
+    #footer_contacto{ height: 30vh; min-width: 100vw
     
     }
 } 
@@ -89,7 +97,12 @@ background-image:url(../assets/images/bgr\ terror.jpg); background-repeat:round;
 
     }
     
-    #footer_contacto{height: 30vh; position: absolute; top: 0,!important; min-width: 100vw; border-right: 200px;
+    #footer_contacto{min-width: 100vw; height: 18vh; text-align: start; margin: 0; border: 0; padding: 0;
     
+    }
+    .body-contacto {width: 100vw;position: relative;height:169vh,!important;background-color: rgb(15, 18, 15);}
+   
+    #formulario_general{font-family: "sausage"; padding-top: 25%;background-color:rgb(25 135 84);height: 71vh;
+
     }
 } 
